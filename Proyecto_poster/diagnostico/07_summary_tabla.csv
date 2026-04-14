@@ -1,0 +1,34 @@
+Variable,Interpretado,Grupo,% Missing,Dtype,N unicos,Rec.
+target,TARGET,IDs / Target,0.0,int64,2,Usar
+s1dq3a,dest_interno,Aspiracion (sect1d),29.0,object,2,Imputar (mediana/moda)
+s1dq3b,dest_externo,Aspiracion (sect1d),82.4,object,2,REVISAR - >40% missing
+s1dq5,s1dq5,Aspiracion (sect1d),82.4,object,15,REVISAR - >40% missing
+s1dq7,intento_migrar,Aspiracion (sect1d),96.4,object,2,REVISAR - >40% missing
+zone,zone,Demografia (sect1),0.0,object,6,Usar
+s1q2,s1q2,Demografia (sect1),0.0,object,2,Usar
+s1q6,edad,Demografia (sect1),0.0,float64,92,Usar
+s1q8,casado,Demografia (sect1),0.0,object,2,Usar
+s1q25,en_escuela,Demografia (sect1),0.0,object,2,Usar
+s1q28,s1q28,Demografia (sect1),30.0,object,37,Imputar (mediana/moda)
+s1eq0a,remesas_ext,Remesas (sect1e),0.0,object,2,Usar
+s1eq0b,s1eq0b,Remesas (sect1e),68.1,float64,44,REVISAR - >40% missing
+s1eq3,monto_rem_ext,Remesas (sect1e),97.7,float64,61,REVISAR - >40% missing
+s1eq6,monto_rem_int,Remesas (sect1e),99.3,float64,36,REVISAR - >40% missing
+s4aq1,empleado_7d,Laboral (sect4a),0.0,object,1,DROP - varianza cero
+s4aq4,busca_empleo,Laboral (sect4a),0.0,object,2,Usar
+s4aq46,horas_trabajo,Laboral (sect4a),49.2,float64,33,REVISAR - >40% missing
+s4aq47,ingresos,Laboral (sect4a),49.2,float64,273,REVISAR - >40% missing
+s9q1a,HFIAS_1,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1b,HFIAS_2,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1c,HFIAS_3,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1d,HFIAS_4,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1e,HFIAS_5,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1f,HFIAS_6,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1g,HFIAS_7,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1h,HFIAS_8,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1i,HFIAS_9,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1j,HFIAS_10,Seg. alim. (sect9),0.0,object,2,Usar
+s9q2a,HFIAS_score,Seg. alim. (sect9),0.0,float64,5,Usar
+s9q4,sin_comer,Seg. alim. (sect9),0.0,object,2,Usar
+wt_cross_wave5,wt_cross_wave5,Pesos (secta),0.8,float64,4580,Usar
+target_harvest,target_harvest,IDs / Target,11.3,object,2,Imputar (mediana/moda)
