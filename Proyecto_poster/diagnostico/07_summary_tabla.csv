@@ -1,0 +1,30 @@
+Variable,Interpretado,Grupo,% Missing,Dtype,N únicos,Rec.
+target,TARGET,IDs / Target,0.0,int64,2,Usar
+zone,zone,Demografía (sect1),0.0,object,6,Usar
+s1q2,s1q2,Demografía (sect1),0.0,object,2,Usar
+s1q6,edad,Demografía (sect1),0.0,float64,92,Usar
+s1q8,casado,Demografía (sect1),0.0,object,2,Usar
+s1q25,en_escuela,Demografía (sect1),0.0,object,2,Usar
+s1q28,s1q28,Demografía (sect1),30.0,object,37,Imputar (mediana/moda)
+s1eq1__1,rem_ext_mon,Remesas (sect1e),0.0,object,2,Usar
+s1eq1__2,rem_ext_ink,Remesas (sect1e),0.0,object,2,Usar
+s1eq1__3,rem_int_mon,Remesas (sect1e),0.0,object,2,Usar
+s1eq1__4,rem_int_ink,Remesas (sect1e),0.0,object,2,Usar
+s4aq4,busca_empleo,Laboral (sect4a),0.0,object,2,Usar
+s4aq46,horas_x_dia,Laboral (sect4a),49.2,float64,33,REVISAR - >40% missing
+s4aq47,ingresos,Laboral (sect4a),49.2,float64,273,REVISAR - >40% missing
+s4aq47_tunit,s4aq47_tunit,Laboral (sect4a),52.8,object,8,REVISAR - >40% missing
+s9q1a,HFIAS_1,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1b,HFIAS_2,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1c,HFIAS_3,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1d,HFIAS_4,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1e,HFIAS_5,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1f,HFIAS_6,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1g,HFIAS_7,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1h,HFIAS_8,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1i,HFIAS_9,Seg. alim. (sect9),0.0,object,2,Usar
+s9q1j,HFIAS_10,Seg. alim. (sect9),0.0,object,2,Usar
+s9q2a,HFIAS_score,Seg. alim. (sect9),0.0,float64,5,Usar
+s9q4,sin_comer,Seg. alim. (sect9),0.0,object,2,Usar
+wt_cross_wave5,wt_cross_wave5,Pesos (secta),0.8,float64,4580,Usar
+target_harvest,target_harvest,IDs / Target,11.3,object,2,Imputar (mediana/moda)
