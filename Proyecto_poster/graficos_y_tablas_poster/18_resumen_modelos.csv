@@ -1,0 +1,5 @@
+Modelo,Tipo,AUC-ROC (test),Balanced Acc.,F1 (cl. 0),F1 (cl. 1),Avg. Precision
+Logit baseline,Lineal,0.6679,0.6171,0.483,0.697,0.818
+Elastic Net,Lineal (regularizado),0.6694,0.6211,0.487,0.699,0.817
+Random Forest,No lineal (ensemble bagging),0.707,0.6509,0.514,0.756,0.845
+Gradient Boosting,No lineal (ensemble boosting),0.7284,0.6631,0.53,0.76,0.856
